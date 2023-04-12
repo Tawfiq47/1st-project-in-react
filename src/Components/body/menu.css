@@ -1,0 +1,12 @@
+.card-t {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+CardImg {
+    opacity: .5;
+}
