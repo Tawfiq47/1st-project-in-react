@@ -163,6 +163,6 @@ const COMMENTS = [
         date: '26-2-2023'
     }
 
-]
+];
 
 export default COMMENTS;

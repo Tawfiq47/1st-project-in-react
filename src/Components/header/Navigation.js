@@ -17,7 +17,7 @@ navToggler = ()=>{
     }) 
    
 }
-    render() {
+    render() { 
         return (
             <div>
                 <Navbar dark color="dark" expand="sm">
@@ -27,7 +27,7 @@ navToggler = ()=>{
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar className="mr-auto">
                                 <NavItem>
-                                    <Link to="/" className="nav-link active">Home</Link>
+                                    <Link to="/home" className="nav-link active">Home</Link>
                                 </NavItem>
                                 <NavItem>
                                     <Link to="/menu" className="nav-link ">Menu</Link>
