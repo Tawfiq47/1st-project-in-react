@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import MainComponents from './Components/Maincomponent';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom'; 
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <BrowserRouter>
         <MainComponents />
       </BrowserRouter>
+       
     
     </div>
   );
