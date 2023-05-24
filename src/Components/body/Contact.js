@@ -12,7 +12,7 @@ class Contact extends Component {
 
     handleSubmit = values => {
         console.log(values);
-    }
+    } 
 
     render() {
         document.title = "Contact";
@@ -114,7 +114,7 @@ class Contact extends Component {
                                     <FormGroup check>
                                         <Label check className="checkbox">
                                             <Control.checkbox model=".agree" name="agree" className="form-check-input" />
-                                            <strong>may we contact you? </strong>
+                                            <strong>may we contact you?</strong>
                                         </Label>
                                     </FormGroup>
                                 </Col>
@@ -147,7 +147,6 @@ class Contact extends Component {
                             <FormGroup>
                                 <Col md={{ size: 10, offset: 2 }}>
                                     <Button type="submit" color="primary">send feedback</Button>
-                                    
                                 </Col>
                             </FormGroup>
                         </LocalForm>
